@@ -1,0 +1,146 @@
+/*GENERAL*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.container-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+}
+
+
+i{
+  color: white;
+  margin-right: 5px;
+}
+
+header{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: rgb(252, 92, 0);
+  height: 60px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5) ;
+}
+
+main{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 120px ;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+img{
+  max-width: 100%;
+  height: 600px;
+}
+
+/*HEADER*/
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav ul li{
+  margin-right: 4px ;
+  }
+
+
+.logo img{
+  height: 35px;;
+  }
+
+/*MAIN*/
+.row{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product{
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-right: 10px;
+}
+
+/*TEXT-MAIN*/
+.discount-50{
+  background-color: red;
+  color: white;
+  position: absolute;
+  padding: 2px 13px;
+  left: 0;
+  bottom: 140px;
+}
+
+.sost{
+  background-color: green;
+  color: white;
+  position: absolute;
+  padding: 2px 13px;
+  left: 65px;
+  bottom: 140px;
+}
+
+.fa-solid.fa-heart{
+  position: absolute;
+  color: black;
+  background-color: white;
+  padding: 17px 17px;
+  top: 20px;
+  right: 0;
+  cursor: pointer;
+}
+.fa-solid.fa-heart:hover{
+  color: red;
+}
+
+.no-bold{
+  font-weight: 400;
+}
+
+.price-1{
+  color: red;
+}
+
+.price-2{
+  color: black;
+  text-decoration: line-through;
+}
+
+
+/*FOOTER*/
+
+footer{
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.foot{
+  width: 80%;
+}
+
+
